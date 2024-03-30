@@ -1,0 +1,27 @@
+body{
+    background-color:#C4E4FF ;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+#button{
+   color: aliceblue;
+   background-color: blue;
+   border-color:blue;
+   cursor: pointer;
+   padding: 10px;
+  margin-left: 38vh;
+}
+
+@media screen and (max-width:600px){
+    #button{
+        margin-left: 24vh;
+    }
+   
+}

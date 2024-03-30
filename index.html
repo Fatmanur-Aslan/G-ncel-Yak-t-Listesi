@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benzin İstasyonu Uygulaması</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Güncel Yakıt Fiyatları</h1>
+    <h3>Dizel:42.00 TL</h3>
+    <h3>Benzin:43.50 TL</h3>
+    <h3>Gaz:37.25 TL</h3>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+        <td>Hangi yakıt tipini istiyorsunuz ?</td>
+        <td><input type="text" id="hangiYakıtİnput"></td>
+        </tr>
+
+        <tr>
+        <td>Kaç litre yakıt satın almak istiyorsunuz ?</td>
+        <td><input type="text" id="kaçLitreİnput"></td>
+        </tr>
+
+        <tr>
+            <td>Bakiyenizin limitini giriniz:</td>
+            <td><input type="text"  id="bakiyeİnput"></td>
+        </tr>
+
+         </table>
+        <br>
+        <input type="button"    id="button"   value="Hesapla" onclick="Hesapla()">
+        <br>
+
+        <p style="margin-right: 20vh;">Ödenecek Tutar: <span id="sonucSpan"></span></p>
+        <br>
+        <span style="color: red; margin-right: 4vh;" id="islemBasarısız"></span>
+        <span style="color: green;margin-right: 15vh; " id="islemBasarılı"></span>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
